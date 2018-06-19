@@ -5,11 +5,11 @@ body {
 }
 .header {
 	text-align: center;
-	background-color: #00B0FF;
+	background-color: #46FF00;
 	padding: 64px;
 }
 .navbar {
-	background-color: #000000;
+	background-color: #FF0000;
 }
 .navbar a {
 	color: #FFFFFF;
@@ -18,7 +18,7 @@ body {
 	padding-right: 12px;
 }
 .navbar a:hover {
-	background-color: #E0E0E0;
+	background-color: #1700FF;
 	color: #000000;
 }
 #mainTab {
