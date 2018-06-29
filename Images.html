@@ -1,23 +1,7 @@
-<html><head><title>10.183.13.13</title>
-<style>
-	body{ 
-		 font-family: system-ui, sans-serif;
-		background-color: #71b09f;
-		color: #fff;
-	 }
-	 a{	
-		font-style: bold;
-		border: solid 1px;
-		padding : 1px;
-		text-decoration: none;
-				 background-color: #fff;
-				 color: #000;
-	}
-	pre{
-		background-color: #fff;
-		color: #71b09f;
-	}
-</style>
+<html>
+<head>
+<title>Jared Yearsley.ioe</title>
+<link href="style.css" rel="stylesheet" />
 <script>
 var images = ['pic1.png', 'pic2.png', 'pic3.png', 'pic4.png', 'pic5.png', 'pic6.png', 'pic7.png', 'pic8.png', 'pic9.png', 'pic10.png'];
     
@@ -29,12 +13,21 @@ function getRandomImage(imgAr, path) {
     document.write(imgStr); document.close();
 }
 </script>
-
 </head>
 <body>
+<div class="header">
+<h1>Jared Yearsley</h1>
+</div>
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Computer.html">Computer</a>
+<a href="Game.html">Game</a>
+<a href="Downloads">Downloads</a>
+<a href="Images.html" id="mainTab">Images</a>
+</div>
+<pre>
 <script type="text/javascript">getRandomImage(images, 'img/')</script>
-<?php
-phpinfo();
-?>
+<pre>
 </body>
 </html>
+
