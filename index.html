@@ -1,21 +1,40 @@
-<html>
-<head>
-<title>Jared Yearsley.ioe</title>
-<link href="style.css" rel="stylesheet" />
+<html><head><title>10.183.13.13</title>
+<style>
+	body{ 
+		 font-family: system-ui, sans-serif;
+		background-color: #71b09f;
+		color: #fff;
+	 }
+	 a{	
+		font-style: bold;
+		border: solid 1px;
+		padding : 1px;
+		text-decoration: none;
+				 background-color: #fff;
+				 color: #000;
+	}
+	pre{
+		background-color: #fff;
+		color: #71b09f;
+	}
+</style>
+<script>
+var images = ['pic1.png', 'pic2.png', 'pic3.png', 'pic4.png', 'pic5.png', 'pic6.png', 'pic7.png', 'pic8.png', 'pic9.png', 'pic10.png'];
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'img/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
+</script>
+
 </head>
 <body>
-<div class="header">
-<h1>Jared Yearsley</h1>
-</div>
-<div class="navbar">
-<a href="index.html" id="mainTab">Home</a>
-<a href="Computer.html">Computer</a>
-<a href="Game.html">Game</a>
-<a href="Downloads">Downloads</a>
-</div>
-<pre>
-I'm jared Yearsley, i love computers and i want to get a job as a cyber security engineer. to do that i'm going to pursue a cyber security masters degree. i'm going to join the air force to help pay for collage as well as try to get 
-experince as a cyber security engineer in the air force
-<pre>
+<script type="text/javascript">getRandomImage(images, 'img/')</script>
+<?php
+phpinfo();
+?>
 </body>
 </html>
